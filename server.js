@@ -18,7 +18,7 @@ moment.tz.load(require('moment-timezone/data/packed/latest.json'));
 
 require('dotenv').config();
 
-const serviceAccount = require('./spa-salon-tg-firebase-adminsdk-fjzow-848cb50de7.json');
+const serviceAccount = require('./spa-salon-tg-firebase-adminsdk-fjzow-ceb0765413.json');
 
 admin.initializeApp({ 
   credential: admin.credential.cert(serviceAccount), 
